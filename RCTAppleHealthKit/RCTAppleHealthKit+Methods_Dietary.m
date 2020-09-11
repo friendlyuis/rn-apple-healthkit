@@ -27,7 +27,7 @@
     double chlorideValue = [RCTAppleHealthKit doubleFromOptions:input key:@"chloride" withDefault:(double)0];
     double cholesterolValue = [RCTAppleHealthKit doubleFromOptions:input key:@"cholesterol" withDefault:(double)0];
     double copperValue = [RCTAppleHealthKit doubleFromOptions:input key:@"copper" withDefault:(double)0];
-    double energyConsumedValue = [RCTAppleHealthKit doubleFromOptions:input key:@"energy" withDefault:(double)0];
+    double energyConsumedValue = [RCTAppleHealthKit doubleFromOptions:input key:@"energyConsumed" withDefault:(double)0];
     double fatMonounsaturatedValue = [RCTAppleHealthKit doubleFromOptions:input key:@"fatMonounsaturated" withDefault:(double)0];
     double fatPolyunsaturatedValue = [RCTAppleHealthKit doubleFromOptions:input key:@"fatPolyunsaturated" withDefault:(double)0];
     double fatSaturatedValue = [RCTAppleHealthKit doubleFromOptions:input key:@"fatSaturated" withDefault:(double)0];
